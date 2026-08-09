@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #work {
+        margin: 0 350px;
+        height: 80vh;
+    }
+
+    .heading {
+        margin: 80px 0;
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+    }
+
+    .heading h2 {
+        font-size: 50px;
+    }
+
+    .project {
+        margin-top: 40px;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .design-system {
+        display: flex;
+        width: 80vw;
+        height: 50px;
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .design-system h3 {
+        width: 60vw;
+        margin-left: 20px;
+    }
+
+    .data-platform {
+        width: 80vw;
+        height: 50px;
+        margin: 50px 0;
+    }
+
+    .platform-container {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .data-platform h2 {
+        width: 60vw;
+        margin-left: 20px;
+    }
+
+    .personal-app {
+        display: flex;
+        width: 80vw;
+        height: 50px;
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .data-platform p {
+        margin: 0 50px;
+    }
+
+    .speecimenmen-generator {
+        display: flex;
+        width: 80vw;
+        height: 50px;
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Inter, sans-serif;
+        background: #f7f4ef;
+        padding: 50px;
+    }
+
+    .project-card {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        padding: 40px 0;
+
+        border-top: 1px solid rgba(0, 0, 0, .15);
+        border-bottom: 1px solid rgba(0, 0, 0, .15);
+
+    }
+
+    .number {
+
+        width: 50px;
+        color: #d4552d;
+        font-size: 18px;
+
+    }
+
+    .project-content {
+
+        flex: 1;
+        margin-left: 30px;
+
+    }
+
+    .project-content h2 {
+
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 12px;
+
+    }
+
+    .category {
+
+        letter-spacing: 2px;
+        font-size: 14px;
+        color: #777;
+        margin-bottom: 25px;
+
+    }
+
+    .description {
+
+        max-width: 900px;
+        font-size: 20px;
+        line-height: 1.7;
+        color: #444;
+
+    }
+
+    .project-right {
+
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .project-right span {
+
+        color: #777;
+
+    }
+
+    .project-right a {
+
+        text-decoration: none;
+        font-size: 28px;
+        color: #111;
+        transition: .3s;
+
+    }
+
+    .project-right a:hover {
+
+        transform: translate(5px, -5px);
+
+    }
+</style>
+
+<body>
+    <section id="work">
+
+        <div class="work-globe">
+
+            <div class="heading">
+
+                <h2>Selected Work</h2>
+
+                <div class="project">
+
+                    <span>4 Project</span>
+
+                </div>
+
+            </div>
+
+            <div class="underline"></div>
+
+            <div class="project-container">
+
+                <div class="design-system">
+                    <div class="span-01">
+                        <span>01</span>
+                    </div>
+                    <h3>
+                        Meridian Design System</h3>
+                    <div class="span-2024">
+                        <span>
+                            2024
+                        </span>
+                    </div>
+                </div>
+
+                <div class="underline"></div>
+
+                <div class="data-platform">
+                    <div class="platform-container">
+                        <div class="data-span">
+                            <span>02</span>
+                        </div>
+                        <div class="data-heading">
+                            <h2>Cartography — Data Visualization Platform</h2>
+                        </div>
+                        <div class="data-para">
+                            <p>2024</p>
+                        </div>
+                    </div>
+                    <p>
+                        Product Design · Development
+                    </p>
+                </div>
+
+                <div class="underline"></div>
+
+                <div class="personal-app">
+                    <div class="span-03">
+                        <span>03</span>
+                    </div>
+                    <h2>Fold — Personal Finance App</h2>
+                    <div class="span-2023-03">
+                        <span>2023</span>
+                    </div>
+                    <div class="para-3">
+                        <p>Mobile · UX Research</p>
+                    </div>
+                </div>
+
+                <div class="underline"></div>
+
+                <div class="speecimenmen-generator">
+                    <div class="span-04">
+                        <span>04</span>
+                    </div>
+                    <h2>Type Specimen Generator</h2>
+                    <div class="span-2023-04">
+                        <span>2023</span>
+                    </div>
+                    <div class="para-4">
+                        <p>Typography · Open Source</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="underline"></div>
+
+        </div>
+
+    </section>
+
+    <section id="work">
+        <div class="project-card">
+
+            <span class="number">01</span>
+
+            <div class="project-content">
+                <h2>Meridian Design System</h2>
+
+                <p class="category">
+                    DESIGN SYSTEMS · ENGINEERING
+                </p>
+
+                <p class="description">
+                    A comprehensive, token-driven component library used across 14 products.
+                    Built with Figma Variables, React, and a custom CLI that syncs design
+                    decisions directly to production.
+                </p>
+            </div>
+
+            <div class="project -right">
+                <span>2024</span>
+                <a href="#">↗</a>
+            </div>
+
+
+            <div class="project-card">
+
+                <span class="number">02</span>
+
+                <div class="project-content">
+                    <h2> Cartography — Data Visualization Platform</h2>
+
+                    <p class="category">
+                        PRODUCT DESIGN . DEVELOPMENT
+                    </p>
+
+                    <p class="description">
+                        A comprehensive, token-driven component library used across 14 products.
+                        Built with Figma Variables, React, and a custom CLI that syncs design
+                        decisions directly to production.
+                    </p>
+                </div>
+
+                <div class="project-right">
+                    <span>2024</span>
+                    <a href="#">↗</a>
+                </div>
+
+            </div>
+
+
+           <div class="project-card">
+
+            <span class="number">02</span>
+
+            <div class="project-content">
+                <h2>Cartography — Data Visualization Platform</h2>
+
+                <p class="category">
+                    Product Design · Development
+                </p>
+
+                <p class="description">
+                    A comprehensive, token-driven component library used across 14 products.
+                    Built with Figma Variables, React, and a custom CLI that syncs design
+                    decisions directly to production.
+                </p>
+            </div>
+
+            <div class="project -right">
+                <span>2024</span>
+                <a href="#">↗</a>
+            </div>
+
+
+            <div class="project-card">
+
+                <span class="number">02</span>
+
+                <div class="project-content">
+                    <h2> Cartography — Data Visualization Platform</h2>
+
+                    <p class="category">
+                        PRODUCT DESIGN . DEVELOPMENT
+                    </p>
+
+                    <p class="description">
+                        A comprehensive, token-driven component library used across 14 products.
+                        Built with Figma Variables, React, and a custom CLI that syncs design
+                        decisions directly to production.
+                    </p>
+                </div>
+
+                <div class="project-right">
+                    <span>2024</span>
+                    <a href="#">↗</a>
+                </div>
+
+            </div>
+    </section>
+</body>
+
+</html>
